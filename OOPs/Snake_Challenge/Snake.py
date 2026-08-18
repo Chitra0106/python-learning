@@ -3,8 +3,8 @@ starting_position = [(0,0),(-20,0),(-40,0)]
 move_distance = 20
 UP= 90
 DOWN = 270
-RIGHT = 180
-LEFT = 0
+RIGHT = 0
+LEFT = 180
 
 class Snake:
     def __init__(self):

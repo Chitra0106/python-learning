@@ -1,0 +1,177 @@
+ strJSON
+ @"[
+    {
+        ""ExpectedScreenBeforeProceeding"": ""Consumer Affairs Menu"",
+        ""Command"": ""SetFieldAtPosition"",
+        ""Value"": ""2"",
+        ""Row"": 21,
+        ""Column"": 24,
+        ""TransmitAfter"": true
+    },
+    {
+        ""ExpectedScreenBeforeProceeding"": ""Vehicle Repurchase System"",
+        ""Command"": ""SendControlKey"",
+        ""Key"": ""F4""
+    },
+    {
+        ""ExpectedScreenBeforeProceeding"": ""Consumer Affairs Main Menu"",
+        ""Command"": ""SetFieldAtPosition"",
+        ""Value"": ""1"",
+        ""Row"": 8,
+        ""Column"": 28,
+        ""TransmitAfter"": true
+    },
+    {
+        ""ExpectedScreenBeforeProceeding"": ""Warranty Claim Access"",
+        ""Command"": ""SetFieldAtPosition"",
+        ""Value"": ""16"",
+        ""Row"": 21,
+        ""Column"": 24,
+        ""TransmitAfter"": true
+    },
+    {
+        ""ExpectedScreenBeforeProceeding"": ""Warranty Coverage Validation Inq"",
+        ""Command"": ""SetFieldAtPosition"",
+        ""Value"": ""1"",
+        ""Row"": 21,
+        ""Column"": 19,
+        ""TransmitAfter"": true
+    },
+    {
+        ""ExpectedScreenBeforeProceeding"": ""Warranty Coverage Inquiry"",
+        ""Command"": ""SetFieldAtPosition"",
+        ""Value"": ""1"",
+        ""Row"": 21,
+        ""Column"": 19,
+        ""TransmitAfter"": true
+    },
+    {
+        ""ExpectedScreenBeforeProceeding"": ""Warranty Coverage Validation"",
+        ""Command"": ""SetFieldAtPosition"",
+        ""Value"": ""#VIN#"",
+        ""Row"": 5,
+        ""Column"": 18,
+        ""TransmitAfter"": true
+               
+    },
+    {
+        ""ExpectedScreenBeforeProceeding"": ""Warranty Coverage"",
+        ""CaptureScreen"": true,
+        ""Command"": ""SendControlKey"",
+        ""Key"": ""F4""              
+
+    },
+    {
+        ""ExpectedScreenBeforeProceeding"": ""Warranty History Inquiry"",
+        ""CaptureEachScreen"": true,
+        ""Command"": ""LoopBlock"",
+        ""PageScroll"": ""PageDown"",
+        ""LoopCount"": 12,
+        ""RepeatUntilRegexMatch"": ""Warranty Claim Inquiry"",
+        ""LoopCommands"": [
+            {
+                ""Command"": ""SendKeys"",
+                ""Key"": ""I""
+            }
+        ]
+    },
+    {
+        ""ExpectedScreenBeforeProceeding"": ""Warranty Claim Inquiry"",
+        ""CaptureEachScreen"": true,
+        ""Command"": ""LoopBlock"",
+        ""PageScroll"": ""F2"",
+        ""LoopCount"": 1,
+        ""RepeatUntilRegexMatch"": ""Warranty History Inquiry"",
+        ""LoopCommands"": [
+            {
+                ""Command"": ""CaptureNotes""
+            },
+            {
+                ""Command"": ""SendControlKey"",
+                ""Key"": ""F2""
+            }
+        ]
+    },
+    {
+        ""ExpectedScreenBeforeProceeding"": ""Warranty History Inquiry"",
+        ""Command"": ""SendControlKey"",
+        ""Key"": ""F3""
+    },
+    {
+        ""ExpectedScreenBeforeProceeding"": ""Warranty Coverage"",
+        ""Command"": ""SendControlKey"",
+        ""Key"": ""F6""
+    },
+  
+    {
+		""ExpectedScreenBeforeProceeding"": ""Campaign List by VIN"",
+        ""Command"": ""SendControlKey"",
+        ""CaptureScreen"": true,
+        ""Key"": ""F3""
+    },
+    {
+        ""ExpectedScreenBeforeProceeding"": ""Warranty Coverage"",
+        ""Command"": ""SendControlKey"",
+        ""Key"": ""F8""
+    },
+    {
+        ""ExpectedScreenBeforeProceeding"": ""Customer History Information"",
+        ""CaptureScreen"": true,
+        ""Command"": ""SendControlKey"",
+        ""Key"": ""F3""
+    },
+    {
+        ""ExpectedScreenBeforeProceeding"": ""Warranty Coverage"",
+        ""Command"": ""SendControlKey"",
+        ""Key"": ""F9""
+    },
+    {
+        ""ExpectedScreenBeforeProceeding"": ""First Owner Information"",
+       ""CaptureScreen"": true,
+        ""Command"": ""SendControlKey"",
+        ""Key"": ""F3""
+    },
+    {
+        ""ExpectedScreenBeforeProceeding"": ""Warranty Coverage"",
+        ""Command"": ""SendControlKey"",
+        ""Key"": ""F11""
+    },
+    {
+        ""ExpectedScreenBeforeProceeding"": ""Branded Title Information"",
+        ""CaptureScreen"": true,
+        ""Command"": ""SendControlKey"",
+        ""Key"": ""F3""
+    },
+    {
+        ""ExpectedScreenBeforeProceeding"": ""Warranty Coverage"",
+        ""ExpectedScreenText"": ""F12=Wty Ext Detl"",
+        ""Command"": ""SendControlKey"",
+        ""Key"": ""F12""
+    },
+   {
+        ""ExpectedScreenBeforeProceeding"": ""Warranty Coverage"",
+        ""CaptureScreen"": true,
+        ""Command"": ""SendControlKey"",
+        ""Key"": ""F3""
+    },
+    {
+        ""Command"": ""PrintDocument""
+    },
+               {
+        ""Command"": ""SendControlKey"",
+        ""Key"": ""F3""
+    },
+               {
+        ""Command"": ""SendControlKey"",
+        ""Key"": ""F3""
+    },
+               {
+        ""Command"": ""SendControlKey"",
+        ""Key"": ""F3""
+    },
+               {
+        ""Command"": ""SendControlKey"",
+        ""Key"": ""F3""
+    }
+]"
+

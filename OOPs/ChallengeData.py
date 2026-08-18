@@ -1,0 +1,22 @@
+questions_data = [
+    {"text": "A slug bud is green", "answer": "true"},
+    {"text": "The sun rises in the east", "answer": "true"},
+    {"text": "Python is a programming language", "answer": "true"},
+    {"text": "The Earth is flat", "answer": "false"},
+    {"text": "Water freezes at 0 degrees Celsius", "answer": "true"},
+    {"text": "The capital of India is Mumbai", "answer": "false"},
+    {"text": "2 + 2 equals 5", "answer": "false"},
+    {"text": "The Pacific Ocean is the largest ocean", "answer": "true"},
+    {"text": "A triangle has four sides", "answer": "false"},
+    {"text": "HTML is a programming language", "answer": "false"},
+    {"text": "Python was created by Guido van Rossum", "answer": "true"},
+    {"text": "The Earth revolves around the Sun", "answer": "true"},
+    {"text": "A dictionary stores data using key-value pairs", "answer": "true"},
+    {"text": "A list in Python uses square brackets", "answer": "true"},
+    {"text": "A tuple in Python is mutable", "answer": "false"},
+    {"text": "The keyword 'def' is used to define a function in Python", "answer": "true"},
+    {"text": "The keyword 'class' is used to create a class in Python", "answer": "true"},
+    {"text": "10 is greater than 20", "answer": "false"},
+    {"text": "A week has seven days", "answer": "true"},
+    {"text": "The human body has two hearts", "answer": "false"}
+]

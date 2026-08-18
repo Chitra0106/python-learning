@@ -1,0 +1,7 @@
+TotalBill = int(input("What was the total Bill"))
+TipPercent = int(input("What was the tip percent"))
+PeopleSplit = input("How many people are split")
+totalBillafterTip = float( ((TipPercent/100) * TotalBill)+ TotalBill)
+print(totalBillafterTip)
+EachPersonPay =  round((totalBillafterTip / int(PeopleSplit)))
+print(EachPersonPay)
